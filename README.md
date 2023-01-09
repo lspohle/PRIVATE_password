@@ -10,8 +10,8 @@ A couple of weeks ago, I wouldn't have even imagined that I could write my own p
 2. Go into the directory, and run the following command to `make` an archive, `compile` and `execute` `YOUR password, YOUR choice`.
       
        make -s
-# Opportunities presented by RPS
+# Opportunities presented by `YOUR password, YOUR choice
 - You may easily adjust the maximal length of your generated password by modifying the global variable `MAX_LENGTH`in [password.h](https://github.com/lspohle/PRIVATE_password/blob/main/password.h).
-- `YOUR password, YOUR choice` is easy to implement, and it should work on various operating systems (macOS and Ubuntu, for example). Keep in mind that you need `gcc`- a compiler for C - and `git` - an open source distributed version control system. They are pre-installed on macOS and Linux (not on Windows, for example).
+- `YOUR password, YOUR choice` is easy to implement, and it should work on various operating systems (macOS and Ubuntu, for example). Keep in mind that you need `gcc` (a compiler for C) and `git` (an open source distributed version control system). They are pre-installed on macOS and Linux (not on Windows, for example).
 
 <img width="415" alt="Bildschirmfoto 2023-01-09 um 23 38 45" src="https://user-images.githubusercontent.com/121381385/211426434-1ff4cd0e-d503-402e-a323-6b87de001bfa.png">

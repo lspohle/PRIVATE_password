@@ -7,7 +7,7 @@ A couple of weeks ago, I wouldn't have even imagined that I could write my own p
 1. `Git clone` the current repository.
       
        git clone https://github.com/lspohle/PRIVATE_password.git
-2. Go into the directory, and run the following command to `make` an archive, `compile` and `execute` RPS.
+2. Go into the directory, and run the following command to `make` an archive, `compile` and `execute` `YOUR password, YOUR choice`.
       
        make -s
 # Opportunities presented by RPS

@@ -14,7 +14,7 @@ char    ask_for_customization_of_password(void)
     return (answer);
 }
 
-// Asking specifically for excluded characters
+// Asking specifically for including characters
 choice include_types_of_characters(choice user, char  *type)
 {
     char    answer;
@@ -35,11 +35,28 @@ choice include_types_of_characters(choice user, char  *type)
     return (user);
 }
 
+// Checking the user's choice of characters
+choice check_types_of_characters(choice user)
+{
+    if (user.includes_uppercase == true || user.includes_lowercase == true
+	    || user.includes_digits == true || user.includes_specials == true)
+        return (user);
+    print_invalid_choice_of_characters();
+    user.includes_uppercase = true;
+	user.includes_lowercase = true;
+	user.includes_digits = true;
+	user.includes_specials = true;
+    return (user);
+}
+
 // Asking for user's desired length of the passwort that will be generated
 void    ask_for_length(int *length)
 {
     ft_printf(YELLOW"\nWhat length shall your generated password have?\n"ESCAPE);
     scanf("%i", length);
-    if (*length > MAX_LENGTH)
+    if (*length > MAX_LENGTH || *length < 1)
+    {
         *length = MAX_LENGTH;
+        print_invalid_length();
+    }
 }

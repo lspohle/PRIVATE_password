@@ -1,4 +1,4 @@
-NAME =			generator.a
+NAME =			password.a
 
 SUBDIR =		libft
 
@@ -15,8 +15,7 @@ RM =			rm -f
 ${NAME}:		${SUBDIR} ${OBJS}
 				mv libft/libft.a ${NAME}
 				${AR} ${NAME} ${OBJS}
-				${GCCW} ${NAME}
-				./a.out && ${RM} a.out
+				${GCCW} ${NAME} -o executable && ./executable && rm executable
 				${MAKE} -s fclean
 
 ${SUBDIR}:		
@@ -29,10 +28,12 @@ all:			${NAME}
 
 clean:			
 				${RM} ${OBJS}
-				cd libft && ${MAKE} clean
+				cd libft && ${MAKE} -s clean
 
 fclean:			clean
 				${RM} ${NAME}
-				cd libft && ${MAKE} fclean
+				cd libft && ${MAKE} -s fclean
 
-.PHONY:			all clean fclean ${SUBDIR}
+re:				fclean all
+
+.PHONY:			all clean fclean re ${SUBDIR}

@@ -54,6 +54,7 @@ int	main(void)
 	    user = include_types_of_characters(user, "lowercase characters");
 	    user = include_types_of_characters(user, "digits");
 	    user = include_types_of_characters(user, "special characters");
+		user = check_types_of_characters(user);
     }
 	generate_password(user);
 }

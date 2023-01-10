@@ -15,3 +15,8 @@ A couple of weeks ago, I wouldn't have even imagined that I could write my own p
 - `YOUR password, YOUR choice` is easy to implement, and it should work on various operating systems (macOS and Ubuntu, for example). Keep in mind that you need `gcc` (a compiler for C) and `git` (an open source distributed version control system). They are pre-installed on macOS and Linux (not on Windows, for example).
 
 <img width="415" alt="Bildschirmfoto 2023-01-09 um 23 38 45" src="https://user-images.githubusercontent.com/121381385/211426434-1ff4cd0e-d503-402e-a323-6b87de001bfa.png">
+
+# Probabilities
+
+<img width="390" alt="Pie chart" src="https://user-images.githubusercontent.com/121381385/211666924-788d1582-ed9b-4fe1-8b63-1175bc03074d.png">
+<img width="883" alt="Tree diagramm" src="https://user-images.githubusercontent.com/121381385/211666934-c2c88774-2639-4d0f-9d98-d83a0da96ee5.png">

@@ -11,7 +11,7 @@ A couple of weeks ago, I wouldn't have even imagined that I could write my own p
 
        gp
 # Opportunities presented by YOUR password, YOUR choice
-- You can easily `customize the set of characters and the amount of charaters you wish to include into your password.
+- You can easily `customize` the set of characters and the amount of charaters you wish to include into your password.
 - You can generate the password of your choice whenever and wherever you wish. The command `gp` is independent from its source code. 
 - You may easily adjust the maximal length of your generated password by modifying the global variable `MAX_LENGTH` in [password.h](https://github.com/lspohle/PRIVATE_password/blob/main/password.h).
 - `YOUR password, YOUR choice` is easy to implement, and it should work on various operating systems (macOS and Ubuntu, for example). Keep in mind that you need `gcc` (a compiler for C) and `git` (an open source distributed version control system). They are pre-installed on macOS and Linux (they are not pre-installed on Windows).

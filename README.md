@@ -8,6 +8,7 @@
 - [Your benefit](#2)
 - [Installation](#3)	
 - [Implementation](#4)
+- [Example](#5)
 - [Probabilities](#5)
 
 <a name="1"></a>
@@ -44,11 +45,13 @@ A couple of weeks ago, I wouldn't have even imagined that I could write my own p
 - Implement it by running the following command whenever and wherever you wish.
 
        gp
-       
-<img width="415" alt="Bildschirmfoto 2023-01-09 um 23 38 45" src="https://user-images.githubusercontent.com/121381385/211426434-1ff4cd0e-d503-402e-a323-6b87de001bfa.png">
 
 <a name="5"></a>
-# [Probabilities](#5)
+# [Example](#5)
+<img width="415" alt="Example Password Generator" src="https://user-images.githubusercontent.com/121381385/214868336-0a78a44c-cb37-442d-b07a-0c0f6de50cb8.png">
+
+<a name="6"></a>
+# [Probabilities](#6)
 
 <img width="390" alt="Pie chart" src="https://user-images.githubusercontent.com/121381385/211666924-788d1582-ed9b-4fe1-8b63-1175bc03074d.png">
 <img width="883" alt="Tree diagramm" src="https://user-images.githubusercontent.com/121381385/211666934-c2c88774-2639-4d0f-9d98-d83a0da96ee5.png">

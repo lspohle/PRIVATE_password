@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "alias gp='cd ~ && make -s'" >> ~/.zshrc
+echo "alias gp='cd ~/PRIVATE_password && make -s'" >> ~/.zshrc
 zsh

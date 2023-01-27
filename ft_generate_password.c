@@ -3,15 +3,16 @@
 // Generating base randomly character by character
 void    generate_base(choice user, char **base)
 {
-    int random_base = rand() % 4;
+    int random_base = rand() % 83;
 
-    if (random_base == 0 && user.includes_uppercase == true)
+	
+    if (user.includes_uppercase == true && random_base >= 0 && random_base <= 25)
         *base = UPPERCASE;
-    else if (random_base == 1 && user.includes_lowercase == true)
+    else if (user.includes_lowercase == true && random_base >= 26 && random_base <= 51)
         *base = LOWERCASE;
-    else if (random_base == 2 && user.includes_digits == true)
+    else if (user.includes_digits == true && random_base >= 52 && random_base <= 61)
         *base = DIGITS;
-    else if (random_base == 3 && user.includes_specials == true)
+    else if (user.includes_specials == true && random_base >= 62 && random_base <= 83)
         *base = SPECIALS;
     else
         generate_base(user, base);

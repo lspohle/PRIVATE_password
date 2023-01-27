@@ -18,10 +18,10 @@
 #  define MAX_LENGTH 25
 # endif
 // Available set of characters
-# define UPPERCASE "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# define UPPERCASE "ABCDEFGHIJKLMNOPQRSTUVWXYZ" // 
 # define LOWERCASE "abcdefghijklmnopqrstuvwxyz"
 # define DIGITS "0123456789"
-# define SPECIALS "!@#$%^&*"
+# define SPECIALS "!@#$%^&*/()=?{}[]+<>;:"
 
 // Overview of characters included by the user
 typedef     struct

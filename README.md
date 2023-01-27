@@ -20,7 +20,7 @@ Note that I used my own [library](https://github.com/lspohle/PRIVATE_rps/tree/ma
 |Uppercase|ABCDEFGHIJKLMNOPQRSTUVWXYZ|26|
 |Lowercase|abcdefghijklmnopqrstuvwxyz|26|
 |Digits|0123456789|10|
-|Specials|!@#$%^&*/()=?{}[]+<>;:|24|
+|Specials|!@#$%^&*/()=?{}[]+<>;:|22|
 
 <a name="2"></a>
 # [Your benefit](#2)

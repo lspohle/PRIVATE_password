@@ -5,11 +5,13 @@
 <a name="0"></a>
 # [Table of content](#0)
 - [Introduction](#1)
-- [Your benefit](#2)
-- [Installation](#3)	
-- [Implementation](#4)
-- [Example](#5)
-- [Probabilities](#6)
+- [Probabilities](#2)
+- [Your benefit](#3)
+- [Example](#4)
+- [Installation](#5)	
+- [Implementation](#6)
+- [Deinstallation](#7)
+
 
 <a name="1"></a>
 # [Introduction](#1)
@@ -23,7 +25,14 @@ Note that I used my own [library](https://github.com/lspohle/PRIVATE_rps/tree/ma
 |Specials|!@#$%^&*/()=?{}[]+<>;:|22|
 
 <a name="2"></a>
-# [Your benefit](#2)
+# [Probabilities](#2)
+
+<img width="400" alt="Graph to display probabilities" src="https://user-images.githubusercontent.com/121381385/215053161-c0ef3d49-3838-4155-8b04-1b641ab84704.png">
+
+<img width="400" alt="Graph data" src="https://user-images.githubusercontent.com/121381385/215053236-99fecd9a-6e2d-4a35-8a24-15eeda49e939.png">
+
+<a name="3"></a>
+# [Your benefit](#3)
 
 -  **Install and implement easily**
 
@@ -41,26 +50,26 @@ Note that I used my own [library](https://github.com/lspohle/PRIVATE_rps/tree/ma
 
       - [x] *YOUR password, YOUR choice* works on various operating systems (such as macOS and Linux). Keep in mind that you need `gcc` (a compiler for C) and `git` (an open source distributed version control system). They are pre-installed on macOS and Linux but not on Windows.
 
-<a name="3"></a>
-# [Installation](#3)
+<a name="4"></a>
+# [Example](#4)
+<img width="400" alt="Example password" src="https://user-images.githubusercontent.com/121381385/215055207-a4561755-dc26-418c-8a62-9891f5f11804.png">
+
+
+<a name="5"></a>
+# [Installation](#5)
 - Install *YOUR password, YOUR choice* by cloning the current repository, and creating an alias for your password generator.
       
       cd ~ && git clone https://github.com/lspohle/PRIVATE_password.git && cd PRIVATE_password && bash script.sh
 
-<a name="4"></a>
-# [Implementation](#4)
+<a name="6"></a>
+# [Implementation](#6)
 - Implement it by running the following command whenever and wherever you wish.
 
        gp
 
-<a name="5"></a>
-# [Example](#5)
-<img width="400" alt="Example password" src="https://user-images.githubusercontent.com/121381385/215055207-a4561755-dc26-418c-8a62-9891f5f11804.png">
-
-<a name="6"></a>
-# [Probabilities](#6)
-
-<img width="400" alt="Graph to display probabilities" src="https://user-images.githubusercontent.com/121381385/215053161-c0ef3d49-3838-4155-8b04-1b641ab84704.png">
-
-<img width="400" alt="Graph data" src="https://user-images.githubusercontent.com/121381385/215053236-99fecd9a-6e2d-4a35-8a24-15eeda49e939.png">
-
+<a name="7"></a>
+# [Deinstallation](#7)
+- Deinstall *YOUR password, YOUR choice* from your device.
+      
+      cd ~ && rm -rf PRIVATE_password
+- Remove the formerly created alias `gp` from your ZSH configuration file.

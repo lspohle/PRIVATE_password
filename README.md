@@ -13,7 +13,14 @@
 
 <a name="1"></a>
 # [Introduction](#1)
-A couple of weeks ago, I wouldn't have even imagined that I could write my own password generator. As long as we dare to get out of our comfort zone, and face new challenges we'll thrive. Note that I used my own [library](https://github.com/lspohle/PRIVATE_rps/tree/main/libft) for [printf](https://github.com/lspohle/PRIVATE_password/blob/main/libft/ft_printf.c), [strlen](https://github.com/lspohle/PRIVATE_password/blob/main/libft/ft_strlen.c) and [stncmp](https://github.com/lspohle/PRIVATE_password/blob/main/libft/ft_strncmp.c).
+Note that I used my own [library](https://github.com/lspohle/PRIVATE_rps/tree/main/libft) for [printf](https://github.com/lspohle/PRIVATE_password/blob/main/libft/ft_printf.c), [strlen](https://github.com/lspohle/PRIVATE_password/blob/main/libft/ft_strlen.c) and [stncmp](https://github.com/lspohle/PRIVATE_password/blob/main/libft/ft_strncmp.c).
+
+|Type|Characters|Amount|
+|:--:|:--------:|:----:|
+|Uppercase|ABCDEFGHIJKLMNOPQRSTUVWXYZ|26|
+|Lowercase|abcdefghijklmnopqrstuvwxyz|26|
+|Digits|0123456789|10|
+|Specials|!@#$%^&*/()=?{}[]+<>;:|24|
 
 <a name="2"></a>
 # [Your benefit](#2)
@@ -53,5 +60,7 @@ A couple of weeks ago, I wouldn't have even imagined that I could write my own p
 <a name="6"></a>
 # [Probabilities](#6)
 
-<img width="390" alt="Pie chart" src="https://user-images.githubusercontent.com/121381385/211666924-788d1582-ed9b-4fe1-8b63-1175bc03074d.png">
-<img width="883" alt="Tree diagramm" src="https://user-images.githubusercontent.com/121381385/211666934-c2c88774-2639-4d0f-9d98-d83a0da96ee5.png">
+<img width="400" alt="Graph to display probabilities" src="https://user-images.githubusercontent.com/121381385/215053161-c0ef3d49-3838-4155-8b04-1b641ab84704.png">
+
+<img width="400" alt="Graph data" src="https://user-images.githubusercontent.com/121381385/215053236-99fecd9a-6e2d-4a35-8a24-15eeda49e939.png">
+

@@ -9,7 +9,7 @@
 - [Installation](#3)	
 - [Implementation](#4)
 - [Example](#5)
-- [Probabilities](#5)
+- [Probabilities](#6)
 
 <a name="1"></a>
 # [Introduction](#1)

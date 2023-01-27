@@ -55,7 +55,7 @@ Note that I used my own [library](https://github.com/lspohle/PRIVATE_rps/tree/ma
 
 <a name="5"></a>
 # [Example](#5)
-<img width="415" alt="Example Password Generator" src="https://user-images.githubusercontent.com/121381385/214868336-0a78a44c-cb37-442d-b07a-0c0f6de50cb8.png">
+<img width="400" alt="Example password" src="https://user-images.githubusercontent.com/121381385/215055207-a4561755-dc26-418c-8a62-9891f5f11804.png">
 
 <a name="6"></a>
 # [Probabilities](#6)
